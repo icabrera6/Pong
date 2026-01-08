@@ -1,29 +1,29 @@
-🏓 Pong Multiplayer (FastAPI + Vue + WebSockets)
+Pong Multiplayer (FastAPI + Vue + WebSockets)
 
 Juego Pong multijugador en tiempo real usando FastAPI + WebSockets para el backend y Vue 3 + Vite para el frontend.
 Incluye lobby con salas públicas, matchmaking manual y partidas 1vs1.
 
-------- 🚀 Características -------
+------- Características -------
 
-🎮 Pong clásico 1 vs 1
+Pong clásico 1 vs 1
 
-🌐 Multijugador en tiempo real con WebSockets
+Multijugador en tiempo real con WebSockets
 
-🏠 Lobby con salas públicas
+Lobby con salas públicas
 
-➕ Creación de salas en tiempo real (sin HTTP)
+Creación de salas en tiempo real (sin HTTP)
 
-⏳ La partida empieza cuando hay 2 jugadores
+La partida empieza cuando hay 2 jugadores
 
-⚡ La pelota acelera con el tiempo
+La pelota acelera con el tiempo
 
-🔄 Reinicio de partida funcional
+Reinicio de partida funcional
 
-⏸ Pausa y control correcto del estado del juego
+Pausa y control correcto del estado del juego
 
-🎨 Interfaz visual mejorada
+Interfaz visual mejorada
 
-------- 🧱 Tecnologías usadas -------
+------- Tecnologías usadas -------
 
 BACKEND
 
@@ -45,7 +45,7 @@ FRONTEND
 
 - WebSocket API
 
-------- 📁 Estructura del proyecto -------
+------- Estructura del proyecto -------
 
 pong/
 ├── server/
@@ -65,9 +65,9 @@ pong/
             ├── Lobby.vue
             └── PongGame.vue
 
-------- ⚙️ Instalación -------
+------- Instalación -------
 
-1️⃣ BACKEND
+BACKEND
 
 cd server
 python -m venv venv
@@ -76,33 +76,33 @@ source venv/bin/activate   # macOS / Linux
 
 pip install -r requirements.txt
 
-2️⃣ FRONTEND
+FRONTEND
 
 cd client
 npm install
 
-------- 🔹 Iniciar backend -------
+------- Iniciar backend -------
 
 cd backend
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 
 Backend disponible en:
-👉 http://localhost:8000
+http://localhost:8000
 
 WebSocket:
-👉 ws://localhost:8000/ws
+ws://localhost:8000/ws
 
-------- 🔹 Iniciar frontend -------
+------- Iniciar frontend -------
 
 cd client
 npm run dev
 
 
 Frontend disponible en:
-👉 http://localhost:5173
+http://localhost:5173
 
-------- 🎮 Cómo jugar -------
+------- Cómo jugar -------
 
 Abre el frontend en el navegador.
 
@@ -122,7 +122,7 @@ Gana el jugador que alcance el puntaje máximo.
 
 Usa Reiniciar para volver a empezar la partida.
 
-------- 🔌 WebSockets -------
+------- WebSockets -------
 
 Lobby y salas se gestionan por WebSocket.
 
@@ -138,7 +138,7 @@ Estado del juego
 
 Pelota, paletas y puntuación
 
-------- 🧪 Requisitos -------
+------- Requisitos -------
 
 Node.js 18+
 
